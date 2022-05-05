@@ -7,7 +7,7 @@
     tools:context=".TrangChiTiet">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imgChiTietChiTiet"
         android:layout_width="415dp"
         android:layout_height="546dp"
         android:layout_marginBottom="192dp"
@@ -26,7 +26,7 @@
         android:background="@drawable/botronview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintTop_toTopOf="@+id/imgChiTietChiTiet" />
 
     <TextView
         android:id="@+id/txtTenImgTrangChu"
@@ -47,8 +47,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#00FFFFFF"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imgChiTietChiTiet"
+        app:layout_constraintTop_toTopOf="@+id/imgChiTietChiTiet"
         app:srcCompat="@drawable/back"
         tools:ignore="SpeakableTextPresentCheck" />
 

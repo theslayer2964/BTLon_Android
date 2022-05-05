@@ -2,7 +2,9 @@ package com.example.wallpaper;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -22,5 +24,13 @@ public class Login extends AppCompatActivity {
         edtPasswordSignUp = findViewById(R.id.edtPasswordSignUp);
         txtSignUpSignIn = findViewById(R.id.txtSignUpSignIn);
         txtForgotPassSignin = findViewById(R.id.txtForgotPassSignin);
+
+        btnReturnSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -2,7 +2,9 @@ package com.example.wallpaper;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -22,5 +24,13 @@ public class TrangChiTiet extends AppCompatActivity {
         txtSoluongtaiTrangChu = findViewById(R.id.txtSoluongtaiTrangChu);
         txtTenChuSoHuuTrangChu = findViewById(R.id.txtTenChuSoHuuTrangChu);
         txtTenImgTrangChu = findViewById(R.id.txtTenImgTrangChu);
+
+        btnBackTrangChu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TrangChiTiet.this, TrangChu.class);
+                startActivity(intent);
+            }
+        });
     }
 }

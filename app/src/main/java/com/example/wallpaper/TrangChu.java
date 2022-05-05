@@ -2,7 +2,9 @@ package com.example.wallpaper;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
@@ -28,5 +30,13 @@ public class TrangChu extends AppCompatActivity {
         txtAnime = findViewById(R.id.txtAnime);
         txtCubes = findViewById(R.id.txtCubes);
         lvTrangChu = findViewById(R.id.lvTrangChu);
+
+        btnReturnTrangChu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TrangChu.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
