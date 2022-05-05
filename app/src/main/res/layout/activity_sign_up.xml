@@ -7,7 +7,7 @@
     tools:context=".Login">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgHeaderSignUp"
         android:layout_width="410dp"
         android:layout_height="59dp"
         android:layout_marginBottom="672dp"
@@ -19,28 +19,28 @@
         app:srcCompat="@drawable/taskbar" />
 
     <ImageButton
-        android:id="@+id/btnReturn"
+        android:id="@+id/btnReturnSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="12dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="@+id/imgHeaderSignUp"
+        app:layout_constraintStart_toStartOf="@+id/imgHeaderSignUp"
         app:srcCompat="@drawable/returnbutton"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtTCDWallPaperSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="TCD Wallpaper"
         android:textColor=" #FBFDFF"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/btnReturn"
-        app:layout_constraintStart_toEndOf="@+id/btnReturn"
-        app:layout_constraintTop_toTopOf="@+id/btnReturn"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReturnSignUp"
+        app:layout_constraintStart_toEndOf="@+id/btnReturnSignUp"
+        app:layout_constraintTop_toTopOf="@+id/btnReturnSignUp"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -50,9 +50,9 @@
         android:layout_marginStart="28dp"
         android:text="Sign up"
         android:textColor="#FBFDFF"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="@+id/txtTCDWallPaperSignUp"
+        app:layout_constraintStart_toEndOf="@+id/txtTCDWallPaperSignUp"
+        app:layout_constraintTop_toTopOf="@+id/txtTCDWallPaperSignUp"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
@@ -65,7 +65,7 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imgHeaderSignUp" />
 
     <EditText
         android:id="@+id/edtPasswordSignUp"

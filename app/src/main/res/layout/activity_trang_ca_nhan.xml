@@ -7,40 +7,40 @@
     tools:context=".TrangCaNhan">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgHeaderTrangCaNhan"
         android:layout_width="416dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="672dp"
+        android:layout_marginBottom="676dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/taskbar" />
 
     <ImageButton
-        android:id="@+id/btnReturn"
+        android:id="@+id/btnReturnTrangCaNhan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="12dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imgHeaderTrangCaNhan"
         app:srcCompat="@drawable/returnbutton"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtTCDWallPaperTrangCaNhan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="TCD Wallpaper"
         android:textColor=" #FBFDFF"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/btnReturn"
-        app:layout_constraintStart_toEndOf="@+id/btnReturn"
-        app:layout_constraintTop_toTopOf="@+id/btnReturn"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReturnTrangCaNhan"
+        app:layout_constraintStart_toEndOf="@+id/btnReturnTrangCaNhan"
+        app:layout_constraintTop_toTopOf="@+id/btnReturnTrangCaNhan"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
@@ -51,7 +51,7 @@
         android:layout_marginEnd="16dp"
         android:background="#00514040"
         android:scaleType="fitXY"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imgHeaderTrangCaNhan"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logout"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -74,7 +74,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imgHeaderTrangCaNhan"
         app:srcCompat="@drawable/anhdaidien3" />
 
     <ImageButton

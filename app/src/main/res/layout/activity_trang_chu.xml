@@ -7,7 +7,7 @@
     tools:context=".TrangChu">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgHeaderTrangChu"
         android:layout_width="420dp"
         android:layout_height="65dp"
         android:layout_marginBottom="672dp"
@@ -19,28 +19,28 @@
         app:srcCompat="@drawable/taskbar" />
 
     <ImageButton
-        android:id="@+id/btnReturn"
+        android:id="@+id/btnReturnTrangChu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="12dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="@+id/imgHeaderTrangChu"
+        app:layout_constraintStart_toStartOf="@+id/imgHeaderTrangChu"
         app:srcCompat="@drawable/returnbutton"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtTCDWallPaperTrangChu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="TCD Wallpaper"
         android:textColor=" #FBFDFF"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/btnReturn"
-        app:layout_constraintStart_toEndOf="@+id/btnReturn"
-        app:layout_constraintTop_toTopOf="@+id/btnReturn"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReturnTrangChu"
+        app:layout_constraintStart_toEndOf="@+id/btnReturnTrangChu"
+        app:layout_constraintTop_toTopOf="@+id/btnReturnTrangChu"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
@@ -50,8 +50,8 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="12dp"
         android:background="#00FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imgHeaderTrangChu"
+        app:layout_constraintTop_toTopOf="@+id/imgHeaderTrangChu"
         app:srcCompat="@drawable/anhdaidien"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imgHeaderTrangChu"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
