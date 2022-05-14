@@ -34,7 +34,7 @@ public class TrangChu extends AppCompatActivity {
         btnReturnTrangChu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TrangChu.this, MainActivity.class);
+                Intent intent = new Intent(TrangChu.this, WrapperActivity.class);
                 startActivity(intent);
             }
         });
