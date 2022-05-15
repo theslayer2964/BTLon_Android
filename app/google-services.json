@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "841359543468",
+    "project_id": "wallpaper-baitaplon",
+    "storage_bucket": "wallpaper-baitaplon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841359543468:android:d180f89433bef3e0c22309",
+        "android_client_info": {
+          "package_name": "com.example.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841359543468-tqkppuq39c3386opi9k17djklv30p11j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq7vI3vV44319NLGrBRCoqNQ_W3r7ssu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841359543468-tqkppuq39c3386opi9k17djklv30p11j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
